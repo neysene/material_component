@@ -58,7 +58,13 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   
-  # TODO: Insert Fonts (103)
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: fonts/Rubik-Regular.ttf
+        - asset: fonts/Rubik-Medium.ttf
+          weight: 500 
+  
   uses-material-design: true
   assets:
     - assets/
